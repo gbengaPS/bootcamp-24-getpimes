@@ -1,8 +1,8 @@
 {
   "name": "getprimes",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Function that returns prime numbers between 0 and n",
+  "main": "getprimes.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },

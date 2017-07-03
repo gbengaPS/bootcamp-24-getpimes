@@ -1,21 +1,21 @@
-function getPrimes(n)
+function getPrimes(number)
 {
   let primes = [];
   
-  if(typeof n !='number')
-  {
+  if(typeof number !='number')
+  {;
     return null;
   }
-  else if(n<=0)
-  {
+  else if(number<=0)
+  {;
     return [];  
   }
-  else if(n <2 ){
-    return []
+  else if(number <2 ){
+    return [];
   }
   else{
-  for(let counter =2;counter<=n;counter++){
-   
+  for(let counter =2;counter<=number;counter++){
+   ;
     if(counter%2 !==0 || counter % 3 !==0 || counter % 7 !=0)
     {
       let divisionCount=0;
@@ -38,4 +38,4 @@ function getPrimes(n)
   }
 }
 console.log(getPrimes(0))
-module.exports = getPrimes
+module.exports = getPrimes;
